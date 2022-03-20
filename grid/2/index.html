@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid2.css">
+    <link rel="stylesheet" href="../../global.css">
+    <title>CSS Grid - 2</title>
+</head>
+<body>
+    <h1>CSS Grid - 2</h1>
+    <h3>Layout</h3>
+    <p>We can arrange and predictably size the grid elements however we want by using the <code>grid-column</code> and 
+    <code>grid-row</code> properties of the child elements.</p>
+
+    <div class="code">
+        <code>
+    <span class="code-comment">/* start at row 4, end at row 6 - 2 rows tall */</span>
+    #grid-2-child-5 {
+        grid-row: 4 / 6;
+    }
+
+    <span class="code-comment">/* start at column 1, end at column 3 - occupies 2 columns */</span>
+    #grid-2-child-7 {
+        grid-column: 1 / 3;
+    }
+        </code>
+    </div>    
+
+    <br>
+
+    <div id="grid-2-cont">
+        <div id="grid-2-child-1">One</div>
+        <div id="grid-2-child-2">Two</div>
+        <div id="grid-2-child-3">Three</div>
+        <div id="grid-2-child-4">Four</div>
+        <div id="grid-2-child-5">Five - Out of order and taller</div>
+        <div id="grid-2-child-6">Six</div>
+        <div id="grid-2-child-7">Seven - This one's a little longer as it takes 2 columns in the grid</div>
+        <div id="grid-2-child-8">Eight</div>
+        <div id="grid-2-child-9">Nine</div>
+        <div id="grid-2-child-10">Ten</div>
+        <div id="grid-2-child-11">Eleven</div>
+        <div id="grid-2-child-12">Twelve</div>
+    </div>
+</body>
+</html>

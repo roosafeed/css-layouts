@@ -1,0 +1,13 @@
+#grid-1-cont {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    grid-template-rows: auto;
+    background-color: rgb(18, 2, 241);
+    padding: 10px;
+}
+
+#grid-1-cont > div {
+    background-color: rgb(93, 193, 252);
+    padding: 20px;
+}

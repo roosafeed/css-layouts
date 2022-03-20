@@ -1,0 +1,25 @@
+#grid-2-cont {
+    display: grid;
+    grid-template-columns: repeat(3, calc((100% / 3) - (20px / 3)));
+    gap: 10px;
+    grid-template-rows: auto;
+    background-color: rgb(18, 2, 241);
+    padding: 10px;
+}
+
+#grid-2-cont > div {
+    background-color: rgb(93, 193, 252);
+    padding: 20px;
+}
+
+#grid-2-child-5 {
+    grid-row: 4 / 6;
+}
+
+#grid-2-child-6 {
+    grid-column: 3;
+}
+
+#grid-2-child-7 {
+    grid-column: 1 / 3;
+}

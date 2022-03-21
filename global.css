@@ -2,6 +2,24 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.drag-cont {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.drag-cont > div:first-of-type {
+    width: calc(100% - 3px);
+}
+
+.dragger {
+    width: 3px;
+    height: 100%;
+    background-color: black;
+    cursor: col-resize;
+    user-select: none;
+}
+
 code, .code {
     background-color: #333;
     color: aqua;
